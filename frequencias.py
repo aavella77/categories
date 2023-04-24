@@ -21,6 +21,7 @@ for file in os.scandir("input"):
 				if categoria.lower() in linea.lower():
 					resultado[categoria] += 1 		
 		with open(output_file, 'w') as fout:
+		  fout.write('{}, {}\n'.format("Categoria", "Num"))	
 		  for k,v in sorted(resultado.items(), key=lambda x:x[1], reverse=True):
 		    fout.write('{},{}\n'.format(k, v))
-		resultado = init_resultado()    	
+		resultado = init_resultado()    		
