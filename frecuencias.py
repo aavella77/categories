@@ -54,8 +54,9 @@ with open("archivo_resumen.csv", "w") as fout3:
 			for _ in range(idx+2):
 				cat_num = fout4.readline().strip() + ","
 			for categoria in resultado.keys():
-				if int(cat_num.split(",")[1]) > 0:
-					resultado_global_peso[categoria] += cat_num.count(categoria)				
+				if int(cat_num.split(",")[1]) > 0 and \
+					cat_num.split(",")[0] == categoria:
+					resultado_global_peso[categoria] += 1				
 			fout3.write(cat_num)	
 		fout3.write("\n")		
 
