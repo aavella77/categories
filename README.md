@@ -1,8 +1,10 @@
-# categories
-Given files in input directory, find the repetitions of these categories in the input files and write output files with the repetitions.
+# categorias
+Encontrar el numero de repeticiones de categorias en archivos.
 
-# Steps
-1. Create input and output directories 
-2. Add input files in input directory
-3. Run the script (python3 frecuencias.py)
-4. Check output folder
+# Instrucciones usando Google Colab
+1. Crear "input" and "output" directorios en Google Colab 
+2. Upload archivos al directorio "input"
+3. Correr el script
+4. Chequear el directorio "output"
+5. Chequear archivo_resumen.csv
+
