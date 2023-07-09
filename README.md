@@ -17,7 +17,7 @@ Encontrar el numero de repeticiones de categorias en archivos.
 # Instrucciones usando Google Colab
 1. Crear "input" and "output" directorios en Google Colab 
 2. Upload archivos con el texto a clasificar al directorio "input"
-3. Upload el archibo categorias.txt al directorio principal
+3. Upload el archivo categorias.txt al directorio principal
 4. Abrir el archivo frequencias.py y copiar su contenido en una celda de Google Colab
 5. Correr la celda que contiene el script
 6. Chequear el directorio "output"
